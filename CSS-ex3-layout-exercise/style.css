@@ -11,6 +11,7 @@
   }
 
 .grid {
+    margin: 0;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-auto-rows: minmax(50px, auto);
@@ -21,10 +22,9 @@
         "section aside"
         "section aside"
         "footer  footer";
-        
-    background-color: #080808;
     color: #646464;
     font-family: sans-serif;
+    background-color: #080808;
 }
 
 header {
@@ -43,12 +43,14 @@ li {
 }
 
 section {
+    margin-left: 5px;
     grid-area: section;
     background-color: #262626;
     padding: 0em 2em 2em 2em;
 }
 
 aside {
+    margin-right: 5px;
     grid-area: aside;
     background-color: #262626;
     text-align: center;
@@ -64,6 +66,9 @@ ul {
     list-style-type: none;
 }
 
+input{
+    background-color: #262626;
+}
   
 
 
