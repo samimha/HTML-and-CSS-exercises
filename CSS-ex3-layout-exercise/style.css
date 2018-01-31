@@ -163,6 +163,7 @@ textarea{
         color: #646464;
         font-family: sans-serif;
         background-color: #080808;
+        width:100%;
     }
 
     .sectioncontent{
